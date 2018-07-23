@@ -33,8 +33,8 @@ public String getFaceId(File file) {
         URIBuilder uriBuilder = new URIBuilder("https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect");
 
         uriBuilder.setParameter("returnFaceId", "true");
-        uriBuilder.setParameter("returnFaceLandmarks", "false");
-        uriBuilder.setParameter("returnFaceAttributes", "age");
+//        uriBuilder.setParameter("returnFaceLandmarks", "false");
+//        uriBuilder.setParameter("returnFaceAttributes", "age");
 
         URI uri = uriBuilder.build();
         HttpPost request = new HttpPost(uri);
