@@ -11,7 +11,7 @@ public class Demo {
 		
 		String s1 = detect.getFaceId(file1);
 		
-		File file2 = new File("/Users/nikhil.gupta/Desktop/20171223_221208.jpg");
+		File file2 = new File("/Users/nikhil.gupta/Desktop/wishes-monitor.jpg");
 		String s2 = detect.getFaceId(file2);
 		
 		
